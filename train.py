@@ -16,11 +16,11 @@ writer = SummaryWriter()
 
 # 初始化參數
 epsilon = 1
-epsilon_decay = 0.9999992
+epsilon_decay = 0.9999
 epsilon_min = 0.01
-gamma = 0.9 # discount factor
-lr = 0.0001 # learning rate
-episodes = 50000000
+gamma = 0.99 # discount factor
+lr = 0.1 # learning rate
+episodes = 5000000
 
 def epsilon_greedy(state):
     if random.random() < epsilon:

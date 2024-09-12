@@ -40,7 +40,7 @@ The training progress will be logged, and the Q-table will be saved periodically
 After training, you can evaluate the performance of the agent using the evaluate.py script:
 
 ```bash
-python evaluate.py
+python eval.py
 ```
 
 This script loads the trained Q-table and runs the agent through several episodes, logging the average and standard deviation of the rewards.
