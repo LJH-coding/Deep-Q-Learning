@@ -1,0 +1,7 @@
+gymnasium
+numpy
+pygame
+torch
+tqdm
+tensorboard
+
