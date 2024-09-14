@@ -49,7 +49,7 @@ This script loads the trained Q-table and runs the agent through several episode
 
 The Flappy Bird environment (FlappyBirdEnv) simulates the Flappy Bird game, where an agent controls the bird trying to navigate through a series of pipes without colliding.
 
-Configuration
+## Configuration
 
 Configuration parameters for the Q-learning algorithm include:
 
